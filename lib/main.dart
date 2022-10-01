@@ -92,7 +92,10 @@ class _MyHomePageState extends State<MyHomePage> {
                    ),
                  ),
                ),
-             Text('結果$result')
+             Padding(
+               padding: const EdgeInsets.only(top: 30,left: 20),
+               child: Text('結果$result',style: TextStyle(fontSize: 20),),
+             )
     ],),
         Padding(
           padding: const EdgeInsets.all(20.0),
